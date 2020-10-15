@@ -30,7 +30,7 @@ function switchTheme(evt) {
   } else {
     onLightTheme();
     localStorage.removeItem(STORAGE_KEY);
-    localStorage.setItem('STORAGE_KEY', Theme.LIGHT);
+    localStorage.setItem(STORAGE_KEY, Theme.LIGHT);
   }
 }
 
