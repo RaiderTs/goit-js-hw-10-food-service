@@ -29,7 +29,7 @@ function switchTheme(evt) {
     localStorage.setItem(STORAGE_KEY, Theme.DARK);
   } else {
     onLightTheme();
-    localStorage.removeItem(STORAGE_KEY);
+    // localStorage.removeItem(STORAGE_KEY);
     localStorage.setItem(STORAGE_KEY, Theme.LIGHT);
   }
 }
